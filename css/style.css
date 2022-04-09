@@ -1,0 +1,131 @@
+body{
+  background-color: #e3f6f5;
+}
+
+.header {
+  background-color: #2c698d;
+  font-size: 18px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  word-spacing: 20px;  
+}
+
+.header p {
+  margin: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  transition: 0.18s;
+}
+
+.header a:hover{
+  text-decoration: underline;
+  color: #272643;
+}
+
+.search{
+margin: 20px auto;
+}
+
+
+.search input {
+  height: 30px;
+  width: 600px;
+  border-radius: 15px;
+  border-style: solid;
+  font-weight: bold;
+  margin: 20px auto;
+  transition: 0.18s;
+  display: block;
+}
+
+.search input:hover{
+color: #2c698d;
+border-color: #2c698d;
+border-style: solid;
+}
+
+.search button {
+  height: 36px;
+  width: 160px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  border-color: #ffffff;
+  background-color: #2c698d;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  transition: 0.18s;
+}
+
+.search button:hover{
+  border-style: solid;
+  border-color: #2c698d;
+  background-color: #e3f6f5;
+  color: #2c698d;
+} 
+
+.blog_post{
+  background-color: #2c698d;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  transition: 0.18s;
+  color: #ffffff;
+  
+}
+
+.blog_post:hover{
+  background-color: #bae8e8;
+  color: #2c698d;
+  width: 1010px;
+  border-radius: 25px;
+}
+
+.blog_post h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.blog_post p {
+  text-align: justify;
+  
+  font-size: 14px;
+  line-height: 24px;
+  
+  
+}
+
+.blog_post a {
+ display: block;
+ text-decoration: none;
+ color: white;
+ font-weight: bolder;
+ height: 36px;
+ width: 160px;
+ border-radius: 18px;
+ background-color: #2c698d;
+ text-align: center;
+ line-height: 36px;
+ border: 1px;
+ border-color: #ffffff;
+ border-style: solid;
+ margin: auto;
+ transition: 0.18s;
+}
+
+.blog_post a:hover{
+  width: 175px;
+  color: #2c698d;
+  background-color: #bae8e8;
+  border-color: #2c698d;
+}
